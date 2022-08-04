@@ -1,0 +1,16 @@
+{
+	"name": "jamstack-project",
+	"version": "0.0.1",
+	"description": "Eleventy Project",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy"
+	},
+	"keywords": [],
+	"author": "Mohammad",
+	"license": "MIT",
+	"devDependencies": {
+		"@11ty/eleventy": "^1.0.0"
+	}
+}
