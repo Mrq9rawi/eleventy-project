@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "npx @11ty/eleventy --serve",
-		"build": "NODE_ENV=production eleventy --pathprefix 'eleventy-project'"
+		"build": "npx @11ty/eleventy"
 	},
 	"keywords": [],
 	"author": "Mohammad",
@@ -14,4 +14,3 @@
 		"@11ty/eleventy": "^1.0.0"
 	}
 }
-	
